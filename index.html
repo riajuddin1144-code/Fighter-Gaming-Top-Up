@@ -2,27 +2,41 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title> Fighter Gaming-TopUp</title>
+  <title>Fighter Gaming TopUp</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+  <header>
+    <h1>🔥 Fighter Gaming TopUp</h1>
+  </header>
+
   <div class="container">
-    <h1> Fighter Gaming-💎TopUp</h1>
 
-    <input type="text" id="uid" placeholder="Enter Player UID">
+    <!-- UID -->
+    <input type="text" placeholder="Enter Player UID">
 
-    <select id="diamonds">
-      <option value="">Select Diamonds</option>
-      <option>100 Diamonds</option>
-      <option>310 Diamonds</option>
-      <option>520 Diamonds</option>
-      <option>1060 Diamonds</option>
-    </select>
+    <!-- Packages -->
+    <h2>💎 Diamond Packages</h2>
+    <div class="packages">
+      <button>100 💎 - 80৳</button>
+      <button>310 💎 - 240৳</button>
+      <button>520 💎 - 400৳</button>
+      <button>1060 💎 - 800৳</button>
+    </div>
 
-    <button onclick="Topup()">Top Up Now</button>
+    <!-- Payment -->
+    <h2>💳 Payment</h2>
+    <button class="pay" onclick="pay()">Pay with bKash</button>
 
-    <p id="msg"></p>
+    <!-- Orders -->
+    <div class="orders">
+      <h3>🔥 Latest Orders</h3>
+      <p>Riaj - 100 💎 ✔️</p>
+      <p>Sajid - 310 💎 ✔️</p>
+      <p>Fahim - 520 💎 ✔️</p>
+    </div>
+
   </div>
 
   <script src="script.js"></script>
