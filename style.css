@@ -1,5 +1,6 @@
 body {
-  background: #0f172a;
+  background:  background: url('bg.jpg') no-repeat center center/cover;
+  height: 100vh;
   color: white;
   font-family: Arial;
   display: flex;
