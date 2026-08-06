@@ -1,3 +1,3 @@
 function pay() {
-  alert("Demo Payment Only ⚠️");
+  alert("+88014xx-xxxxxx");
 }
