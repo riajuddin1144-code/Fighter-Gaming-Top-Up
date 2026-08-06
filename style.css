@@ -1,39 +1,47 @@
 body {
-  background: background: url('bg.jpg') no-repeat center center/cover;
-  color: white;
+  margin: 0;
   font-family: Arial;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  color: white;
+  background: url('bg.jpg') no-repeat center center/cover;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0,0,0,0.6);
 }
 
 .container {
-  background: #1e293b;
-  padding: 30px;
-  border-radius: 10px;
   text-align: center;
-  width: 300px;
+  padding: 30px;
+  background: rgba(0,0,0,0.7);
+  margin: 20px;
+  border-radius: 10px;
 }
 
-input, select {
-  width: 100%;
+input {
   padding: 10px;
-  margin: 10px 0;
-  border: none;
-  border-radius: 5px;
+  width: 80%;
+  margin-bottom: 20px;
 }
 
-button {
-  width: 100%;
+.packages button {
+  margin: 10px;
   padding: 10px;
   background: orange;
   border: none;
-  color: black;
-  font-weight: bold;
   cursor: pointer;
 }
 
-button:hover {
-  background: #ffb703;
+.pay {
+  background: hotpink;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.orders {
+  margin-top: 20px;
+  background: #111;
+  padding: 10px;
 }
