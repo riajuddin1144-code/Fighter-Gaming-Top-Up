@@ -25,3 +25,4 @@ setInterval(() => {
 
   addOrder(randomName, randomDiamond);
 }, 3000);
+}
